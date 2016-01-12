@@ -1,0 +1,4 @@
+# SceneLibDemo
+该项目来源于网络上的一下demo，然后自己修改了一下。目前版本有已知的2个bug
+1、如果分页的时候每页数据不足一屏，下拉刷新的时候  加载更多会自动调用，如果数据超过1屏，正常使用
+2、自定义Adapter继承自BaseRecyclerAdapter在onBindViewHolder()时holder无法强制转换为自定义的viewholder
